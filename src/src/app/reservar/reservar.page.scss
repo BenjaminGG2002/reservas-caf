@@ -1,0 +1,25 @@
+ion-modal {
+    border: 2px solid red;
+    background-color: white;
+  }
+  
+  
+  ion-button[expand="full"] {
+    margin-top: 20px;
+  }
+  
+  /* Estilo para las shadow boxes */
+.shadow-box {
+  background-color: #f0f0f0; /* Fondo claro para la sombra */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 15px; /* Espaciado interno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  margin: 20px 0; /* Espaciado externo */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+/* Efecto hover para las shadow boxes */
+.shadow-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Aumenta la sombra al pasar el ratón */
+  transform: scale(1.02); /* Aumenta ligeramente el tamaño del elemento */
+}

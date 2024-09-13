@@ -1,0 +1,78 @@
+/* Centrando el navbar */
+ion-toolbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Centrando el título */
+  ion-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+/* Estilo para los párrafos con shadow box */
+p.shadow-box {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+    top: 50px;
+  }
+  
+  /* Efecto hover para los párrafos */
+  p.shadow-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Aumenta la sombra */
+    transform: scale(1.02); /* Aumenta ligeramente el tamaño del elemento */
+  }
+  
+  
+  /*boton*/
+  ion-button {
+    border-radius: 100px; /*Redondear puntas */
+    position: relative;
+    top: 250px; /* Ajusta este valor para mover el botón hacia abajo */
+  }  
+  
+
+/* Personalización del botón de Ionic */
+.highlight-button {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .highlight-button:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón un 10% */
+    background-color: #0056b3; /* Cambia el color de fondo */
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+  }
+
+  ion-toolbar {
+    --background: #0d1006d0; /* Fondo negro para la barra de herramientas */
+  }  
+
+  ion-title {
+    color: #fff; /* Texto blanco para el título */
+    text-align: center; /* Centra el texto del título */
+  }
+
+  /* Redondeando el botón */
+ion-button {
+    border-radius: 100px; /* Esto redondeará las puntas del botón */
+    margin-top: 50px;    /* Separa el botón del contenido de arriba */
+  }
+  
+
+  ion-background {
+    background-color: #FFA500;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

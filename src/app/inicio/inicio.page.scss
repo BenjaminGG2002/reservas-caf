@@ -1,0 +1,149 @@
+/* Centrando el navbar */
+ion-toolbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Centrando el título */
+  ion-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+/* Estilo para los párrafos con shadow box */
+p.shadow-box {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+    top: 50px;
+  }
+  
+  /* Efecto hover para los párrafos */
+  p.shadow-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Aumenta la sombra */
+    transform: scale(1.02); /* Aumenta ligeramente el tamaño del elemento */
+  }
+  
+  
+  /*boton*/
+  ion-button {
+    border-radius: 100px; /*Redondear puntas */
+    position: relative;
+    top: 50px; /* Ajusta este valor para mover el botón hacia abajo */
+  }  
+  
+
+/* Personalización del botón de Ionic */
+.highlight-button {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .highlight-button:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón un 10% */
+    background-color: #0056b3; /* Cambia el color de fondo */
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+  }
+
+  ion-toolbar {
+    --background: #0d1006d0; /* Fondo negro para la barra de herramientas */
+  }  
+
+  ion-title {
+    color: #fff; /* Texto blanco para el título */
+    text-align: center; /* Centra el texto del título */
+  }
+
+  /* Redondeando el botón */
+ion-button {
+    border-radius: 100px; /* Esto redondeará las puntas del botón */
+    margin-top: 5px;    /* Separa el botón del contenido de arriba */
+  }
+  
+
+  ion-background {
+    background-color: #FFA500;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ion-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f8f8f8; /* Puedes cambiar el color de fondo según tu diseño */
+  }
+  
+  .footer-icons ion-button {
+    margin: 0 10px; /* Espaciado entre íconos */
+  }
+/* Contenedor del mensaje de reserva */
+.reservation-call {
+  text-align: center;
+  margin: 10px 0; /* Reducir el margen inferior para acercar al botón */
+}
+
+/* Animación para el texto "Reserva Ahora" */
+.animated-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff5722;
+  animation: moveText 2s infinite;
+  margin-bottom: 5px; /* Reducir espacio debajo del texto */
+}
+
+/* Contenedor de flechas */
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px; /* Reducir espacio debajo de las flechas */
+}
+
+/* Flechas animadas */
+.arrow {
+  font-size: 36px;
+  color: #3880ff;
+  animation: bounceArrow 1.5s infinite;
+  margin: 0 10px;
+}
+
+/* Animación de movimiento para el texto "Reserva Ahora" */
+@keyframes moveText {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Animación de rebote para las flechas */
+@keyframes bounceArrow {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-8px);
+  }
+}
+
+  
